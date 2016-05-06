@@ -1,3 +1,10 @@
-/**
- * Created by dev3 on 05/05/2016.
- */
+class Point {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+    }
+    toString() {
+        return '('+this.x+','+this.y+')';
+    }
+}
+export default Point;
